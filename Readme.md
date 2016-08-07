@@ -1,7 +1,7 @@
 # Homework User Story
 
 ## User Story
-As an instructor, I want to you to deploy the application to the Cloud Foundry
+As an instructor, I want you to deploy the application to the Cloud Foundry
 PaaS so you can see the level of simplicity and application management PaaS
 provides over IaaS.
 
