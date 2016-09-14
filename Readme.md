@@ -6,10 +6,11 @@ PaaS so you can see the level of simplicity and application management PaaS
 provides over IaaS.
 
 ## Acceptance Criteria
-* I should receive a single email per team
-* The email should contain the name of the individuals on your team
-* The email should contain a link to your Github repository
-* The email should contain a link to your running application in Cloud Foundry
+* Homework should be submitted via Blackboard and one submission per team
+* Please submit a document that :
+ * Contains the name of the individuals on your team
+ * Contains a link to your Github repository
+ * Contains a link to your running application in Cloud Foundry
 * I should be able to use the application to upload an image
 
 
@@ -45,7 +46,20 @@ You maybe asked for an API endpoint.  Use the following URL - https://api.run.pi
 
 You can now push your application.  Here is a sample push command -
 
-    cf push -p .\build\libs\image-gallery-0.1.0.jar -b https://github.com/cloudfoundry/java-buildpack.git
+    cf push -p ./build/libs/image-gallery-0.1.0.jar -b https://github.com/cloudfoundry/java-buildpack.git
 
 This push command could be simplified by adding the JAR file name and buildpack
 to the application's manifest.yml.
+
+How to add the buildpack to the manifest.yml -
+
+https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#buildpack
+
+There is a sample path in the manifest.yml already.  This path is incomplete.
+Replace this path with the full path to the application's jar file -
+
+https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#path
+
+Once the manifest has been updated, you can now push the application with
+
+    cf push
