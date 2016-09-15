@@ -63,3 +63,9 @@ https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#path
 Once the manifest has been updated, you can now push the application with
 
     cf push
+
+# Preparing for Next Class
+We will be working with the Hadoop environment during the next lecture.  Please
+prepare by downloading the Hortonworks sandbox for Virtual Box -
+
+http://hortonworks.com/downloads/#sandbox
