@@ -11,6 +11,7 @@ provides over IaaS.
  * Contains the name of the individuals on your team
  * Contains a link to your Github repository
  * Contains a link to your running application in Cloud Foundry
+    * The link will be the application's ROUTE in CloudFoundry
 * I should be able to use the application to upload an image
 
 
